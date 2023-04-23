@@ -1,0 +1,68 @@
+{
+    "addontype": "elementor",
+    "cattitle": "",
+    "name": "interactive_cube_elementor",
+    "alias": "interactive_cube",
+    "title": "Interactive Cube",
+    "description": "Interactive Cube Menu",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "items_section_title": "",
+            "items_section_heading": "",
+            "items_title_field": "",
+            "path_assets": "",
+            "js_as_module": false,
+            "addon_icon": "",
+            "dynamic_addon": "false",
+            "dynamic_post_enable_customfields": "false",
+            "dynamic_post_enable_category": "false",
+            "description": "Interactive Cube Menu",
+            "link_resource": "",
+            "link_preview": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "special": "",
+            "special_data": ""
+        },
+        "params": [],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": true
+            }
+        ],
+        "includes": {
+            "js": [
+                {
+                    "url": "https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.1\/jquery.min.js",
+                    "condition": null,
+                    "params": null
+                }
+            ],
+            "jslib": [],
+            "css": []
+        },
+        "variables_item": [],
+        "variables_main": [],
+        "params_cats": [
+            {
+                "id": "cat_general_general",
+                "title": "General",
+                "tab": "content"
+            }
+        ]
+    },
+    "templates": [
+        "html",
+        "css",
+        "js"
+    ]
+}

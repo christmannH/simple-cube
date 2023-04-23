@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <title>Document</title>
+</head>
+<body>
+  <article class="viewport">
+    <section class="cube" style="position:relative;top:100px;">
+      <div class="nav-panel" style="padding:0px" onclick="window.location = '<?php echo home_url( '/' );?>';">
+        <h1 id="nav-home"><a href="https://staging.smart-glassinc.com/">Home</a></h1>
+      </div>
+      <div class="nav-panel" style="padding:0px" onclick="window.location = 'https://staging.smart-glassinc.com/solutions';">
+        <h1 id="nav-solutions"><a href="https://staging.smart-glassinc.com/solutions">Solutions</a></h1>
+      </div>
+      <div class="nav-panel" style="padding:0px" onclick="window.location = 'https://staging.smart-glassinc.com/philosophy/';">
+        <h1 id="nav-philosophy"><a href="https://staging.smart-glassinc.com/philosophy/">Philosophy</a></h1>
+      </div>
+     <div class="nav-panel" style="padding:0px" onclick="window.location = 'https://staging.smart-glassinc.com/manufacturers/';">
+        <h1 id="nav-manufacturers"><a href="https://staging.smart-glassinc.com/manufacturers/">Manufacturers</a></h1>
+      </div>
+      <div class="nav-panel" style="padding:0px" onclick="window.location = 'https://staging.smart-glassinc.com/details/';">
+        <h1 id="nav-drawings"><a href="https://staging.smart-glassinc.com/details/">Details</a></h1>
+      </div>
+      <div class="nav-panel" style="padding:0px" onclick="window.location = 'https://staging.smart-glassinc.com/contact-us/';">
+        <h1 id="nav-contact"><a href="https://staging.smart-glassinc.com/contact-us/">Contact</a></h1>
+      </div>
+    </section>
+  </article>
+  
+  <ul id="ie-nav">
+  <li id="home"><a href="https://staging.smart-glassinc.com"><div class="ie-nav-li">Home</div></a></li>
+  <li id="solutions"><a href="<?php echo home_url( '/' );?>solutions-gallery"><div class="ie-nav-li">Solutions</div></a></li>
+  <li id="details"><a href="https://staging.smart-glassinc.com/details/"><div class="ie-nav-li">Details</div></a></li>
+  <li id="manufacturers"><a href="https://staging.smart-glassinc.com/manufacturers/"><div class="ie-nav-li">Manufacturers</div></a></li>
+  <li id="philosophy"><a href="https://staging.smart-glassinc.com/philosophy/"><div class="ie-nav-li">Philosophy</div></a></li>
+  <li id="contact"><a href="https://staging.smart-glassinc.com/contact-us/"><div class="ie-nav-li">Contact Us</div></a></li>
+  </ul>
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+  
+</html>
